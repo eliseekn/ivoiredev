@@ -1,0 +1,141 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#top-bar {
+  background-color: #2b343c;
+}
+#top-bar li {
+  font-size: 1.2rem;
+}
+#top-bar a {
+  color: white;
+  transition: color 0.5s ease !important;
+  -moz-transition: color 0.5s ease !important;
+  -o-transition: color 0.5s ease !important;
+  -webkit-transition: color 0.5s ease !important;
+}
+#top-bar a:hover {
+  color: #f04d00;
+  text-decoration: none;
+}
+
+.nav-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #2b343c;
+  transition: color 0.5s ease !important;
+  -moz-transition: color 0.5s ease !important;
+  -o-transition: color 0.5s ease !important;
+  -webkit-transition: color 0.5s ease !important;
+}
+.nav-link:hover {
+  color: #f04d00;
+}
+
+.btn-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  cursor: pointer !important;
+  padding: 0.8em !important;
+  border: none !important;
+  border-radius: 5px !important;
+  background-color: #2b343c !important;
+  color: white !important;
+  transition: all 0.5s ease !important;
+  -moz-transition: all 0.5s ease !important;
+  -o-transition: all 0.5s ease !important;
+  -webkit-transition: all 0.5s ease !important;
+}
+.btn-link:hover {
+  color: #f04d00 !important;
+  box-shadow: 0 0 5px black !important;
+  text-decoration: none;
+}
+
+header {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/assets/img/hero.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+header h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+#a-propos h2, #a-propos h3,
+#services h2,
+#services h3,
+#contact h2,
+#contact h3,
+#noip h2,
+#noip h3,
+#noip-domaines h2,
+#noip-domaines h3 {
+  color: #2b343c;
+}
+#a-propos h2,
+#services h2,
+#contact h2,
+#noip h2,
+#noip-domaines h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+#a-propos li,
+#services li,
+#contact li,
+#noip li,
+#noip-domaines li {
+  color: #f04d00;
+}
+
+#services,
+#noip-domaines {
+  background: linear-gradient(rgba(43, 52, 60, 0.1), rgba(43, 52, 60, 0.1));
+}
+#services img,
+#noip-domaines img {
+  width: 300px;
+}
+
+#noip-domaines h3 {
+  font-size: 2rem;
+}
+
+#contact textarea {
+  resize: none !important;
+}
+
+footer {
+  background-color: #2b343c;
+  color: white;
+}
+footer a {
+  color: white;
+  transition: color 0.5s ease !important;
+  -moz-transition: color 0.5s ease !important;
+  -o-transition: color 0.5s ease !important;
+  -webkit-transition: color 0.5s ease !important;
+}
+footer a:hover {
+  color: #f04d00;
+  text-decoration: none;
+}
+footer hr {
+  border-color: white;
+  width: 100px;
+  border-width: 3px;
+}
+footer a li {
+  color: #f04d00;
+}
+footer .icon {
+  font-size: 1.5rem !important;
+}
+
+/*# sourceMappingURL=style.css.map */
