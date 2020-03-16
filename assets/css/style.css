@@ -65,6 +65,18 @@ header h1 {
   font-weight: bold;
   font-size: 3rem;
 }
+@media only screen and (max-width: 320px) {
+  header h1 {
+    font-size: 2.5rem;
+  }
+}
+
+.navbar button {
+  border: 2px solid #2b343c;
+}
+.navbar button .fa-bars {
+  color: #2b343c;
+}
 
 #a-propos h2, #a-propos h3,
 #services h2,
@@ -74,14 +86,17 @@ header h1 {
 #noip h2,
 #noip h3,
 #noip-domaines h2,
-#noip-domaines h3 {
+#noip-domaines h3,
+#inscription h2,
+#inscription h3 {
   color: #2b343c;
 }
 #a-propos h2,
 #services h2,
 #contact h2,
 #noip h2,
-#noip-domaines h2 {
+#noip-domaines h2,
+#inscription h2 {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 2.5rem;
@@ -90,8 +105,20 @@ header h1 {
 #services li,
 #contact li,
 #noip li,
-#noip-domaines li {
+#noip-domaines li,
+#inscription li {
   color: #f04d00;
+}
+
+.card {
+  cursor: pointer;
+  transition: all 0.5s ease !important;
+  -moz-transition: all 0.5s ease !important;
+  -o-transition: all 0.5s ease !important;
+  -webkit-transition: all 0.5s ease !important;
+}
+.card:hover {
+  box-shadow: 2px 2px 5px rgba(43, 52, 60, 0.4) !important;
 }
 
 #services,
@@ -131,7 +158,12 @@ footer hr {
   width: 100px;
   border-width: 3px;
 }
-footer a li {
+@media only screen and (max-width: 425px) {
+  footer .container p {
+    width: 100% !important;
+  }
+}
+footer .fa {
   color: #f04d00;
 }
 footer .icon {
