@@ -1,0 +1,15 @@
+@mixin text-blue() {
+    color: $dark-blue !important;
+}
+
+@mixin bg-blue() {
+    background-color: $dark-blue !important;
+}
+
+@mixin text-orange() {
+    color: $dark-orange !important;
+}
+
+@mixin bg-orange() {
+    background-color: $dark-orange !important;
+}

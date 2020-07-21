@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+@mixin roboto-normal() {
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 400 !important;
+}
+
+@mixin roboto-bold() {
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 700 !important;
+}
+
+@mixin montserrat-normal() {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 400 !important;
+}
+
+@mixin montserrat-bold() {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 700 !important;
+}

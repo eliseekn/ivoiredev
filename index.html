@@ -1,425 +1,466 @@
 <!DOCTYPE html>
 <html lang="fr">
-	<head>
-		<meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-		<meta name="author" content="IvoireDev">
-		<meta name="keywords" content="développement d'applications,marketing digital,formation,insertion professionnelle">
-		<meta name="description" content="IvoireDev est une entreprise de développement de solutions 
-		numériques pour les entreprises. Notre mission principale est de promouvoir et faciliter la 
-		transition numérique des TPE et PME. Pour cela, nous utilisons les dernières technologies 
-		numériques afin de développer des solutions qui répondent à leus besoins en matière de gestion 
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<meta name="author" content="IvoireDev">
+	<meta name="keywords" content="développement web,conception gaphique,marketing digital,formation">
+	<meta name="description" content="IvoireDev est une entreprise de développement de solutions 
+		digitales pour les entreprises. Notre mission principale est de promouvoir et faciliter la 
+		transition digitale des TPE et PME. Pour cela, nous utilisons les dernières technologies 
+		afin de développer des solutions qui répondent à leus besoins en matière de gestion 
 		(clientèle, ressources humaines, stocks) et de marketing (identité numérique, marketing digital, 
 		e-commerce).">
 
-		<link rel="apple-touch-icon-precomposed" sizes="57x57" href="assets/img/logos/favicon/apple-touch-icon-57x57.png" />
-		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/img/logos/favicon/apple-touch-icon-114x114.png" />
-		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/img/logos/favicon/apple-touch-icon-72x72.png" />
-		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/img/logos/favicon/apple-touch-icon-144x144.png" />
-		<link rel="apple-touch-icon-precomposed" sizes="60x60" href="assets/img/logos/favicon/apple-touch-icon-60x60.png" />
-		<link rel="apple-touch-icon-precomposed" sizes="120x120" href="assets/img/logos/favicon/apple-touch-icon-120x120.png" />
-		<link rel="apple-touch-icon-precomposed" sizes="76x76" href="assets/img/logos/favicon/apple-touch-icon-76x76.png" />
-		<link rel="apple-touch-icon-precomposed" sizes="152x152" href="assets/img/logos/favicon/apple-touch-icon-152x152.png" />
-		<link rel="icon" type="image/png" href="assets/img/logos/favicon/favicon-196x196.png" sizes="196x196" />
-		<link rel="icon" type="image/png" href="assets/img/logos/favicon/favicon-96x96.png" sizes="96x96" />
-		<link rel="icon" type="image/png" href="assets/img/logos/favicon/favicon-32x32.png" sizes="32x32" />
-		<link rel="icon" type="image/png" href="assets/img/logos/favicon/favicon-16x16.png" sizes="16x16" />
-		<link rel="icon" type="image/png" href="assets/img/logos/favicon/favicon-128.png" sizes="128x128" />
-		<meta name="application-name" content="&nbsp;"/>
-		<meta name="msapplication-TileColor" content="#FFFFFF" />
-		<meta name="msapplication-TileImage" content="assets/img/logos/favicon/mstile-144x144.png" />
-		<meta name="msapplication-square70x70logo" content="assets/img/logos/favicon/mstile-70x70.png" />
-		<meta name="msapplication-square150x150logo" content="assets/img/logos/favicon/mstile-150x150.png" />
-		<meta name="msapplication-wide310x150logo" content="assets/img/logos/favicon/mstile-310x150.png" />
-		<meta name="msapplication-square310x310logo" content="assets/img/logos/favicon/mstile-310x310.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="public/img/logos/favicon/apple-touch-icon-57x57.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="114x114"
+		href="public/img/logos/favicon/apple-touch-icon-114x114.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="public/img/logos/favicon/apple-touch-icon-72x72.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="144x144"
+		href="public/img/logos/favicon/apple-touch-icon-144x144.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="60x60" href="public/img/logos/favicon/apple-touch-icon-60x60.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="120x120"
+		href="public/img/logos/favicon/apple-touch-icon-120x120.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="public/img/logos/favicon/apple-touch-icon-76x76.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="152x152"
+		href="public/img/logos/favicon/apple-touch-icon-152x152.png" />
+	<link rel="icon" type="image/png" href="public/img/logos/favicon/favicon-196x196.png" sizes="196x196" />
+	<link rel="icon" type="image/png" href="public/img/logos/favicon/favicon-96x96.png" sizes="96x96" />
+	<link rel="icon" type="image/png" href="public/img/logos/favicon/favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="public/img/logos/favicon/favicon-16x16.png" sizes="16x16" />
+	<link rel="icon" type="image/png" href="public/img/logos/favicon/favicon-128.png" sizes="128x128" />
+	<meta name="application-name" content="&nbsp;" />
+	<meta name="msapplication-TileColor" content="#FFFFFF" />
+	<meta name="msapplication-TileImage" content="public/img/logos/favicon/mstile-144x144.png" />
+	<meta name="msapplication-square70x70logo" content="public/img/logos/favicon/mstile-70x70.png" />
+	<meta name="msapplication-square150x150logo" content="public/img/logos/favicon/mstile-150x150.png" />
+	<meta name="msapplication-wide310x150logo" content="public/img/logos/favicon/mstile-310x150.png" />
+	<meta name="msapplication-square310x310logo" content="public/img/logos/favicon/mstile-310x310.png" />
 
-		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-		
-		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
-		
-		<script src="https://use.fontawesome.com/5d5817c157.js"></script>
-		
-		<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" crossorigin="anonymous">
 
-		<title>IvoireDev - Développement de solutions numériques pour les entreprises</title>
-  	</head>
+	<link rel="stylesheet" href="public/css/style.css">
 
-	<body id="page-top">
-		<div id="top-bar" class="py-2">
-			<div class="container px-lg-5 d-flex justify-content-between align-items-center flex-lg-row flex-md-row flex-column">
-				<div class="d-flex align-items-center flex-lg-row flex-md-row flex-column">
-					<span class="d-flex align-items-center text-white">
-						<li class="fa fa-phone mr-2"></li>
-						<span>(+225) 59332563/43403398</span>
-					</span>
-					<span class="d-flex align-items-center text-white ml-3">
-						<li class="fa fa-envelope mr-2"></li>
-						<span>contact@ivoiredev.ci</span>
-					</span>
+	<title>Développement de solutions digitales | IvoireDev</title>
+</head>
+
+<body id="page-top">
+	<div id="top-bar" class="py-2">
+		<div class="container d-flex justify-content-between align-items-center flex-lg-row flex-md-row flex-column">
+			<div class="d-flex align-items-center flex-lg-row flex-md-row flex-column">
+				<span class="d-flex align-items-center text-white">
+					<i class="fa fa-phone mr-2 icon"></i> (+225) 59434291/43403398
+				</span>
+				<span class="d-flex align-items-center text-white ml-lg-3 ml-md-3 py-lg-0 py-md-0 py-2">
+					<i class="fa fa-envelope mr-2 icon"></i> contact@ivoiredev.ci
+				</span>
+			</div>
+
+			<div class="d-flex align-items-center">
+				<a href="https://web.facebook.com/ivoiredevci/" class="mr-3" target="_blank">
+					<i class="fab fa-facebook icon"></i>
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<nav class="navbar navbar-expand-lg sticky-top shadow bg-white">
+		<div class="container">
+			<a class="navbar-brand" href="/">
+				<img src="public/img/logos/logo.png" width="150" alt="Logo IvoireDev" title="Accueil">
+			</a>
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+				<li class="fa fa-bars" style="font-size: 2rem;"></li>
+			</button>
+
+			<div class="collapse navbar-collapse py-3 py-lg-0" id="navbar">
+				<ul class="navbar-nav ml-auto align-items-lg-center">
+					<li class="nav-item mr-lg-2 mr-0">
+						<a class="nav-link" href="#page-top">Accueil</a>
+					</li>
+					<li class="nav-item mr-lg-2 mr-0">
+						<a class="nav-link" href="#a-propos">A propos</a>
+					</li>
+					<li class="nav-item mr-lg-2 mr-0">
+						<a class="nav-link" href="#services">Services</a>
+					</li>
+					<li class="nav-item mr-lg-2 mr-0">
+						<a class="nav-link" href="#realisations">Réalisations</a>
+					</li>
+					<li class="nav-item pt-3 pt-lg-0">
+						<a class="btn-link" href="#contact">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<header class="d-flex align-items-center text-white">
+		<div class="container d-flex flex-column align-items-start" data-aos="fade-left">
+			<h1>Développement De <br> Solutions Digitales</h1>
+
+			<p class="lead py-3 d-none d-lg-block d-md-block">
+				Nous développons des solutions qui répondent <br> aux besoins des entreprises.
+			</p>
+
+			<a class="btn-link" href="#a-propos">En savoir plus</a>
+		</div>
+	</header>
+
+	<section id="a-propos">
+		<div class="container py-5">
+			<h2 class="pt-5">A propos</h2>
+
+			<p class="pt-3" data-aos="zoom-in">
+				IvoireDev est une entreprise de développement de solutions digitales pour les
+				entreprises. Notre mission principale est de promouvoir et faciliter la transition
+				digitale des TPE et PME. Pour cela, nous utilisons les dernières technologies 
+				afin de développer des solutions qui répondent à leus besoins en matière
+				de gestion (clientèle, ressources humaines, stocks) et de marketing
+				(identité numérique, marketing digital, e-commerce).
+			</p>
+
+			<div class="row pt-3">
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<div class="p-4 card mb-4 mb-lg-0 mb-md-0">
+						<h3>Secteurs</h3>
+						<p>Nous développons des solutions pour les secteurs d'activités suivants:</p>
+
+						<div class="ml-4">
+							<div class="d-flex align-items-center">
+								<li class="fa fa-angle-right fa-2x mr-2 icon-orange"></li> Education
+							</div>
+
+							<div class="d-flex align-items-center">
+								<li class="fa fa-angle-right fa-2x mr-2 icon-orange"></li> Finances et Comptabilité
+							</div>
+
+							<div class="d-flex align-items-center">
+								<li class="fa fa-angle-right fa-2x mr-2 icon-orange"></li> Logistique
+							</div>
+
+							<div class="d-flex align-items-center">
+								<li class="fa fa-angle-right fa-2x mr-2 icon-orange"></li> Hôtelerie
+							</div>
+
+							<div class="d-flex align-items-center">
+								<li class="fa fa-angle-right fa-2x mr-2 icon-orange"></li> Immobilier
+							</div>
+						</div>
+					</div>
 				</div>
+
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<div class="p-4 card mb-4 mb-lg-0 mb-md-0">
+						<h3>Technologies</h3>
+						<p>Nous développons des solutions à l'aide des technologies suivantes:</p>
+
+						<div class="ml-4">
+							<div class="d-flex align-items-center">
+								<li class="fa fa-angle-right fa-2x mr-2 icon-orange"></li> PHP
+							</div>
+
+							<div class="d-flex align-items-center">
+								<li class="fa fa-angle-right fa-2x mr-2 icon-orange"></li> WordPress
+							</div>
+
+							<div class="d-flex align-items-center">
+								<li class="fa fa-angle-right fa-2x mr-2 icon-orange"></li> Laravel
+							</div>
+
+							<div class="d-flex align-items-center">
+								<li class="fa fa-angle-right fa-2x mr-2 icon-orange"></li> Symfony
+							</div>
+
+							<div class="d-flex align-items-center">
+								<li class="fa fa-angle-right fa-2x mr-2 icon-orange"></li> React.js
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 col-sm-12 pt-md-4 pt-0 pt-lg-0">
+					<div class="p-4 card">
+						<h3>Méthodologie</h3>
+						<p>Nous travaillons efficacement selon une méthodologie bien précise:</p>
+
+						<div class="ml-4">
+							<div class="d-flex align-items-center">
+								<li class="fa fa-angle-right fa-2x mr-2 icon-orange"></li> Identification des besoins
+							</div>
+
+							<div class="d-flex align-items-center">
+								<li class="fa fa-angle-right fa-2x mr-2 icon-orange"></li> Analyse technique
+							</div>
+
+							<div class="d-flex align-items-center">
+								<li class="fa fa-angle-right fa-2x mr-2 icon-orange"></li> Elaboration de la stratégie
+							</div>
+
+							<div class="d-flex align-items-center">
+								<li class="fa fa-angle-right fa-2x mr-2 icon-orange"></li> Développement de la solution
+							</div>
+
+							<div class="d-flex align-items-center">
+								<li class="fa fa-angle-right fa-2x mr-2 icon-orange"></li> Livraison et maintenance
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="services">
+		<div class="container py-5">
+			<h2 class="pt-5">Services</h2>
+
+			<div class="row align-items-center py-5">
+				<div class="col-lg-6 col-md-6 col-sm-12 text-md-right text-lg-right text-center" data-aos="fade-right">
+					<img src="public/img/svg/conception_numerique.svg" alt="">
+				</div>
+
+				<div class="col-lg-6 col-md-6 col-sm-12 text-md-left text-lg-left text-center mt-lg-0 mt-md-0 mt-3" data-aos="fade-left" data-aos-offset="200">
+					<h3>Développemment Web</h3>
+
+					<p class="py-4">
+						Nous concevons pour vous des sites vitrines et eCommerce pour vos besoins de visibilité
+						sur internet, des applications pour vos besoins de gestion de clientelle, de ressources 
+						humaines ou de stock.
+					</p>
+
+					<a class="btn-link" href="#contact">Demander un devis</a>
+				</div>
+			</div>
+
+			<div class="row align-items-center py-5">
+				<div class="col-lg-6 col-md-6 col-sm-12 text-md-right text-lg-right text-center mt-lg-0 mt-md-0 mt-3 order-2 order-lg-1 order-md-1" data-aos="fade-right" data-aos-offset="200">
+					<h3>Marketing Digital</h3>
+
+					<p class="py-4 mb-3">
+						Nous vous accompagnons dans l'élaboration et la mise en oeuvre d'une
+						stratégie de marketing digital afin d'acquérir de nouveaux clients
+						et augmenter vos ventes sur internet.
+					</p>
+
+					<a class="btn-link" href="#contact">Demander un audit</a>
+				</div>
+
+				<div class="col-lg-6 col-md-6 col-sm-12 text-md-left text-lg-left text-center order-1 order-lg-2 order-md-2" data-aos="fade-left">
+					<img src="public/img/svg/finances.svg" alt="">
+				</div>
+			</div>
+
+			<div class="row align-items-center py-5">
+				<div class="col-lg-6 col-md-6 col-sm-12 text-md-right text-lg-right text-center" data-aos="fade-right">
+					<img src="public/img/svg/marketing_digital.svg" alt="">
+				</div>
+
+				<div class="col-lg-6 col-md-6 col-sm-12 text-md-left text-lg-left text-center mt-lg-0 mt-md-0 mt-3" data-aos="fade-left"data-aos-offset="200">
+					<h3>Conception Graphique</h3>
+
+					<p class="py-4">
+						Nous développons votre identité visuelle à travers un logo et une charte graphique. Nous 
+						réalisons pour vous des design pour vos campagnes publicitaires (newsletter, plaquettes publicitaires).
+					</p>
+
+					<a class="btn-link" href="#contact">Demander un devis</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="realisations">
+		<div class="container py-5">
+			<h2 class="pt-5">Réalisations</h2>
+
+			<div class="row row-cols-1 row-cols-lg-2 py-5">
+				<div class="col mb-4">
+					<div class="card">
+						<img src="public/img/portfolio/yellior/thumb.png" alt="Maquette Yellior" title="Cliquez pour voir la maquette"
+							class="show-lightbox card-img-top" data-image="public/img/portfolio/yellior/full.jpg">
 	
-				<div class="d-flex align-items-center">
-					<a href="https://web.facebook.com/ivoiredev.ci/" class="mr-3" target="_blank">
-						<li class="fa fa-facebook"></li>
+						<div class="card-body">
+							<h5 class="card-title mb-0">
+								<span class="company">Yellior -</span> Site eCommerce
+							</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col mb-4">
+					<div class="card">
+						<img src="public/img/portfolio/cabinetgesma/thumb.png" alt="Maquette Cabinet GESMA SARL" title="Cliquez pour voir la maquette"
+							class="show-lightbox card-img-top" data-image="public/img/portfolio/cabinetgesma/full.jpg">
+	
+						<div class="card-body">
+							<h5 class="card-title mb-0">
+								<span class="company">Cabinet GESMA SARL -</span> Site vitrine
+							</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col mb-4">
+					<div class="card">
+						<img src="public/img/portfolio/somiaservices/logo.png" alt="Logo Somia Services" class="card-img-top p-5">
+	
+						<div class="card-body">
+							<h5 class="card-title mb-0">
+								<span class="company">Somia Services -</span> Logo
+							</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="contact">
+		<div class="container py-5">
+			<h2 class="pt-5">Contact</h2>
+
+			<div class="row align-items-center py-5">
+				<div class="col d-none d-lg-block">
+					<img src="public/img/svg/contact.svg" width="500" alt="">
+				</div>
+
+				<div class="col" data-aos="fade-right">
+					<form>
+						<div class="form-group">
+							<div class="form-row">
+								<div class="col-lg-6 col-md-6 col-sm-12 mb-3 mb-lg-0 mb-md-0">
+									<input type="text" id="contact-name" class="form-control"placeholder="Nom et prénoms" required>
+								</div>
+								<div class="col-lg-6 col-md-6 col-sm-12">
+									<input type="email" id="contact-email" class="form-control" placeholder="Email"required>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<input type="text" id="contact-subject" class="form-control" placeholder="Objet" required>
+						</div>
+
+						<div class="form-group">
+							<textarea rows="5" id="contact-message" class="form-control" placeholder="Message"required></textarea>
+						</div>
+
+						<div class="d-flex align-items-center justify-content-between">
+							<div class="form-check">
+								<input type="checkbox" class="form-check-input" id="newsletter">
+								<label for="newsletter">
+									Je souhaite recevoir des emails promotionnels et d'informations
+								</label>
+							</div>
+
+							<button type="submit" class="btn-link">Envoyer</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="container">
+			<div class="row pt-5 pb-3">
+				<div class="col-lg-5 col-md-5 col-sm-12">
+					<a href="/">
+						<img src="public/img/logos/logo_2.png" width="60%" alt="Logo de IvoireDev">
 					</a>
-					<a href="#" class="mr-3" target="_blank">
-						<li class="fa fa-linkedin"></li>
-					</a>
+
+					<p class="mt-4">
+						IvoireDev est une entreprise de développement de solutions digitales adaptées
+						aux besoins des entreprises. Notre mission est de promouvoir et faciliter la
+						transition digitale des TPE et PME.
+					</p>
+				</div>
+
+				<div class="col-lg-3 col-md-3 col-sm-12 py-4 py-lg-0 py-md-0">
+					<h2>Plan du site</h2>
+
+					<div class="ml-4 mt-3 d-flex flex-lg-column flex-sm-row flex-wrap flex-lg-nowrap">
+						<a class="py-1 d-flex align-items-center mr-3 mr-lg-0 mr-md-0" href="/">
+							<i class="fa fa-angle-right fa-2x mr-2 icon-orange"></i> Accueil
+						</a>
+						<a class="py-1 d-flex align-items-center mr-3 mr-lg-0 mr-md-0" href="#about">
+							<i class="fa fa-angle-right fa-2x mr-2 icon-orange"></i> A propos
+						</a>
+						<a class="py-1 d-flex align-items-center mr-3 mr-lg-0 mr-md-0" href="#services">
+							<i class="fa fa-angle-right fa-2x mr-2 icon-orange"></i> Services
+						</a>
+						<a class="py-1 d-flex align-items-center mr-3 mr-lg-0 mr-md-0" href="#realisations">
+							<i class="fa fa-angle-right fa-2x mr-2 icon-orange"></i> Réalisations
+						</a>
+						<a class="py-1 d-flex align-items-center" href="#contact">
+							<i class="fa fa-angle-right fa-2x mr-2 icon-orange"></i> Contact
+						</a>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-3 col-sm-12">
+					<h2>Contact</h2>
+
+					<div class="d-flex flex-column ml-4 mt-3">
+						<div class="py-2 d-flex align-items-center">
+							<i class="fa fa-phone mr-2 icon icon-orange"></i> (+225) 59434291/43403398
+						</div>
+						<a href="mailto:contact@ivoiredev.ci" class="py-2 d-flex align-items-center">
+							<i class="fa fa-envelope mr-2 icon icon-orange"></i> contact@ivoiredev.ci
+						</a>
+						<a href="https://web.facebook.com/ivoiredevci/" class="py-2 d-flex align-items-center" target="_blank">
+							<i class="fab fa-facebook mr-2 icon icon-orange"></i> IvoireDev
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>
 
-		<nav class="navbar navbar-expand-lg sticky-top shadow bg-white">
-			<div class="container px-lg-5">
-				<a class="navbar-brand" href="/">
-					<img src="assets/img/logos/logo.png" width="150" alt="Logo de IvoireDev" title="Accueil">
-				</a>
+		<div class="py-3">
+			<hr noshade="noshade">
 
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
-					<li class="fa fa-bars" style="font-size: 2rem;"></li>
-				</button>
-
-				<div class="collapse navbar-collapse py-3 py-lg-0" id="navbar">
-					<ul class="navbar-nav ml-auto align-items-lg-center">
-						<li class="nav-item">
-							<a class="nav-link" href="#page-top">Accueil</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#a-propos">A propos</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#services">Services</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="noip21.html" target="_blank">Programme NOIP21</a>
-						</li>
-						<li class="nav-item pt-3 pt-lg-0">
-							<a class="btn-link" href="#contact">Contact</a>
-						</li>
-					</ul>
-				</div>
+			<div class="text-center px-4">
+				&copy; Copyright 2020 IvoireDev. Tous droits réservés.
 			</div>
-		</nav>
+		</div>
+	</footer>
 
-		<header class="d-flex align-items-center text-white ">
-			<div class="container d-flex flex-column align-items-start px-lg-5" data-aos="zoom-in">
-				<h1 class="w-75">Développement de Solutions Numériques</h1>
-				<p class="lead py-3 w-50 d-none d-lg-block d-md-block">
-					Nous utilisons les dernières technologies numériques afin de développer des solutions qui répondent aux  
-					besoins des TPE et PME en matière de gestion et de marketing.
-				</p>
-				<a class="btn-link" href="#a-propos">En savoir plus</a>
-			</div>
-		</header>
-
-		<section id="a-propos">
-			<div class="container py-5 px-lg-5">
-				<h2 class="pt-5">A propos</h2>
-
-				<p class="pt-3" data-aos="zoom-in">
-					IvoireDev est une entreprise de développement de solutions numériques pour les 
-					entreprises. Notre mission principale est de promouvoir et faciliter la transition 
-					numérique des TPE et PME. Pour cela, nous utilisons les dernières technologies 
-					numériques afin de développer des solutions qui répondent à leus besoins en matière 
-					de gestion (clientèle, ressources humaines, stocks) et de marketing 
-					(identité numérique, marketing digital, e-commerce). 
-				</p>
-					
-				<div class="row pt-3">
-					<div class="col">
-						<div class="p-4 card mb-4 mb-lg-0 mb-md-0">
-							<h3>Secteurs</h3>
-							<p>Nous développons des solutions pour les secteurs d'activités suivants :</p>
-
-							<div class="ml-4">
-								<div class="d-flex align-items-center">
-									<li class="fa fa-angle-right fa-2x"></li>
-									<span class="ml-2">Education</span>
-								</div>
-
-								<div class="d-flex align-items-center">
-									<li class="fa fa-angle-right fa-2x"></li>
-									<span class="ml-2">Finances et Comptabilité</span>
-								</div>
-
-								<div class="d-flex align-items-center">
-									<li class="fa fa-angle-right fa-2x"></li>
-									<span class="ml-2">Logistique</span>
-								</div>
-
-								<div class="d-flex align-items-center">
-									<li class="fa fa-angle-right fa-2x"></li>
-									<span class="ml-2">Hôtelerie</span>
-								</div>
-
-								<div class="d-flex align-items-center">
-									<li class="fa fa-angle-right fa-2x"></li>
-									<span class="ml-2">Immobilier</span class="ml-2">
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="col">
-						<div class="p-4 card mb-4 mb-lg-0 mb-md-0">
-							<h3>Technologies</h3>
-							<p>Nous développons les solutions à l'aide des technologies suivantes :</p>
-
-							<div class="ml-4">
-								<div class="d-flex align-items-center">
-									<li class="fa fa-angle-right fa-2x"></li>
-									<span class="ml-2">PHP</span>
-								</div>
-
-								<div class="d-flex align-items-center">
-									<li class="fa fa-angle-right fa-2x"></li>
-									<span class="ml-2">WordPress</span>
-								</div>
-
-								<div class="d-flex align-items-center">
-									<li class="fa fa-angle-right fa-2x"></li>
-									<span class="ml-2">React.js</span>
-								</div>
-
-								<div class="d-flex align-items-center">
-									<li class="fa fa-angle-right fa-2x"></li>
-									<span class="ml-2">Java</span class="ml-2">
-								</div>
-
-								<div class="d-flex align-items-center">
-									<li class="fa fa-angle-right fa-2x"></li>
-									<span class="ml-2">Python</span>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="col">
-						<div class="p-4 card">
-							<h3>Méthodologie</h3>
-							<p>Nous travaillons efficacement grâce à la méthodologie suivante :</p>
-
-							<div class="ml-4">
-								<div class="d-flex align-items-center">
-									<li class="fa fa-angle-right fa-2x"></li>
-									<span class="ml-2">Identification des besoins</span>
-								</div>
-
-								<div class="d-flex align-items-center">
-									<li class="fa fa-angle-right fa-2x"></li>
-									<span class="ml-2">Analyse technique</span>
-								</div>
-
-								<div class="d-flex align-items-center">
-									<li class="fa fa-angle-right fa-2x"></li>
-									<span class="ml-2">Elaboration de la stratégie</span>
-								</div>
-
-								<div class="d-flex align-items-center">
-									<li class="fa fa-angle-right fa-2x"></li>
-									<span class="ml-2">Développement de la solution</span>
-								</div>
-
-								<div class="d-flex align-items-center">
-									<li class="fa fa-angle-right fa-2x"></li>
-									<span class="ml-2">Livraison et maintenance</span class="ml-2">
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section id="services">
-			<div class="container py-5 px-lg-5">
-				<h2 class="pt-5">Services</h2>
-				
-				<div class="row align-items-center py-5">
-					<div class="col text-md-right text-lg-right text-center" data-aos="fade-right">
-						<img src="assets/img/svg/conception_numerique.svg" alt="">
-					</div>
-
-					<div class="col text-md-left text-lg-left text-center mt-lg-0 mt-md-0 mt-3" data-aos="fade-left" data-aos-offset="200">
-						<h3>Développemment d'Applications</h3>
-						<p class="py-4">
-							Nous concevons pour vous des sites internet pour vos besoins de visibilité
-							sur internet, des applications pour vos besoins de gestion de clientelle, 
-							de ressources humaines ou de stock.
-						</p>
-						<a class="btn-link" href="#contact">Demander un devis</a>
-					</div>
-				</div>
-
-				<div class="row align-items-center py-5">
-					<div class="col text-md-right text-lg-right text-center mt-lg-0 mt-md-0 mt-3 order-2 order-lg-1 order-md-1" data-aos="fade-right" data-aos-offset="200">
-						<h3>Marketing Digital</h3>
-						<p class="py-4 mb-3">
-							Nous vous accompagnons dans l'élaboration et la mise en oeuvre d'une 
-							stratégie de marketing digitale afin d'acquérir de nouveaux clients  
-							et augmenter vos ventes sur internet.
-						</p>
-						<a class="btn-link" href="#contact">Demander un audit</a>
-					</div>
-
-					<div class="col text-md-left text-lg-left text-center order-1 order-lg-2 order-md-2" data-aos="fade-left">
-						<img src="assets/img/svg/marketing_digital.svg" alt="">
-					</div>
-				</div>
-				
-				<div class="row align-items-center py-5">
-					<div class="col text-md-right text-lg-right text-center" data-aos="fade-right">
-						<img src="assets/img/svg/formations.svg" alt="">
-					</div>
-
-					<div class="col text-md-left text-lg-left text-center mt-lg-0 mt-md-0 mt-3" data-aos="fade-left" data-aos-offset="200">
-						<h3>Formations en Informatique</h3>
-						<p class="py-4">
-							Nous proposons des formations en bureautique, en développement d'applications 
-							en infographie, ainsi que des formations aux logiciels de métiers pour les 
-							particuliers et le personnel d'entreprise.
-						</p>
-
-						<a class="btn-link" href="pdf/Catalogue de formations - IvoireDev.pdf">
-							Voir le catalogue
-						</a>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section id="contact">
-			<div class="container py-5 px-lg-5">
-				<h2 class="pt-5">Contact</h2>
-
-				<div class="row align-items-center py-5">
-					<div class="col d-none d-lg-block">
-						<img src="assets/img/svg/contact.svg" width="500" alt="">
-					</div>
-	
-					<div class="col" data-aos="fade-right">
-						<form>
-							<div class="form-group">
-								<div class="form-row">
-									<div class="col-lg-6 col-md-6 col-sm-12 mb-3 mb-lg-0 mb-md-0">
-										<input type="text" id="contact-name" class="form-control" placeholder="Nom et prénoms" required>
-									</div>
-									<div class="col-lg-6 col-md-6 col-sm-12">
-										<input type="email" id="contact-email" class="form-control" placeholder="Email" required>
-									</div>
-								</div>
-							</div>
-
-							<div class="form-group">
-								<input type="text" id="contact-subject" class="form-control" placeholder="Objet" required>
-							</div>
-							
-							<div class="form-group">
-								<textarea rows="5" id="contact-message" class="form-control" placeholder="Message" required></textarea>
-							</div>
-								
-							<div class="d-flex align-items-center justify-content-between">
-								<div class="form-check">
-									<input type="checkbox" class="form-check-input" id="newsletter">
-									<label for="newsletter">
-										Je souhaite recevoir des emails d'informations et promotionnels
-									</label>
-								</div>
-
-								<button type="submit" class="btn-link">Envoyer</button>
-							</div>
-						</form>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<footer class="py-5">
-			<div class="container px-lg-5">
-				<div class="row">
-					<div class="col-lg-5 col-md-5 col-sm-12">
-						<a href="/">
-							<img src="assets/img/logos/logo_2.png" width="80%" alt="Logo de IvoireDev">
-						</a>
-
-						<p class="mt-4 w-75">
-							IvoireDev est une entreprise de développement de solutions numériques adaptées 
-							aux besoins des entreprises. Notre mission est de promouvoir et faciliter la 
-							transition numérique des TPE et PME.
-						</p>
-					</div>
-
-					<div class="col col-md-3 col-sm-6">
-						<h2>Plan du site</h2>
-
-						<div class="ml-4 mt-3 d-flex flex-column">
-							<a class="py-1 d-flex align-items-center" href="/">
-								<li class="fa fa-angle-right fa-2x"></li>
-								<span class="ml-2">Accueil</span>
-							</a>
-							<a class="py-1 d-flex align-items-center" href="#about">
-								<li class="fa fa-angle-right fa-2x"></li>
-								<span class="ml-2">A propos</span>
-							</a>
-							<a class="py-1 d-flex align-items-center" href="#services">
-								<li class="fa fa-angle-right fa-2x"></li>
-								<span class="ml-2">Services</span>
-							</a>
-							<a class="py-1 d-flex align-items-center" target="_blank" href="noip21.html">
-								<li class="fa fa-angle-right fa-2x"></li>
-								<span class="ml-2">Programme NOIP21</span>
-							</a>
-							<a class="py-1 d-flex align-items-center" href="#contact">
-								<li class="fa fa-angle-right fa-2x"></li>
-								<span class="ml-2">Contact</span>
-							</a>
-						</div>
-					</div>
-
-					<div class="col col-md-3 col-sm-6">
-						<h2>Contact</h2>
-
-						<div class="d-flex flex-column ml-4 mt-3">
-							<div class="py-2 d-flex align-items-center">
-								<li class="fa fa-phone mr-2 icon"></li>
-								<span>(+225) 59332563/43403398</span>
-							</div>
-							<a href="mailto:contact@ivoiredev.ci" class="py-2 d-flex align-items-center">
-								<li class="fa fa-envelope mr-2 icon"></li>
-								<span>contact@ivoiredev.ci</span>
-							</a>
-							
-							<a href="https://web.facebook.com/ivoiredev.ci" class="py-2 d-flex align-items-center" target="_blank">
-								<li class="fa fa-facebook mr-2 icon"></li>
-								<span>@ivoiredev</span>
-							</a>
-
-							<a href="https://linkedin.com/in/ivoiredev" class="py-2 d-flex align-items-center" target="_blank">
-								<li class="fa fa-linkedin mr-2 icon"></li>
-								<span>IvoireDev</span>
-							</a>
-						</div>
-					</div>
-				</div>
+	<div id="lightbox">
+		<div class="container">
+			<div class="lightbox-title">
+				<span id="close-lightbox">
+					<i class="fa fa-times text-white" title="Fermer" style="cursor: pointer"></i>
+				</span>
 			</div>
 
-			<div class="pt-5">
-				<hr noshade="noshade" class="mx-auto">
-			
-				<p class="text-center text-white">
-					&copy; Copyright 2020 IvoireDev. Tous droits réservés. Daloa, Côte d'Ivoire.
-				</p>
-			</div>
-		</footer>
+			<img id="lightbox-image" class="w-100">
+		</div>
+	</div>
 
-		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<a href="#page-top" id="scroll-top" title="Aller en haut">
+		<i class="fa fa-angle-up fa-2x"></i>
+	</a>
 
-		<script src="assets/js/script.js"></script>
-	</body>
+	<script defer src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+	<script defer src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"></script>
+	<script defer src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+		crossorigin="anonymous"></script>
+	<script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+		integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+		crossorigin="anonymous"></script>
+	<script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js" crossorigin="anonymous"></script>
+
+	<script defer src="public/js/script.js"></script>
+</body>
+
 </html>

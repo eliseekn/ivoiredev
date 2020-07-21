@@ -1,13 +1,3 @@
-@mixin font-normal() {
-    font-family: 'Roboto', sans-serif;
-    font-weight: normal;
-}
-
-@mixin font-bold() {
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-}
-
 @mixin transition($attr, $time, $type) {
     transition: $attr $time $type !important;
     -moz-transition: $attr $time $type !important;
